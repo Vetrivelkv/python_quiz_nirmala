@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["student_name", "2student", "my-name", "class"],
+    "answer": ["student_name"]
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "question": "Which of the following are valid Python variable names?",
+    "options": ["user_age", "_count", "firstName", "total-price"],
+    "answer": ["user_age", "_count", "firstName"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Why is 'class' not a good variable name in Python?",
+    "options": [
+      "Because it is a keyword in Python",
+      "Because it contains too many letters",
+      "Because Python only allows numbers",
+      "Because it starts with a lowercase letter"
+    ],
+    "answer": ["Because it is a keyword in Python"]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "Which operator is used to assign a value to a variable in Python?",
+    "options": ["=", "==", "!=", "+"],
+    "answer": ["="]
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "Which operator is used to add two numbers in Python?",
+    "options": ["+", "-", "*", "/"],
+    "answer": ["+"]
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "Which operator is used to subtract one number from another?",
+    "options": ["-", "+", "%", "//"],
+    "answer": ["-"]
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "Which operator is used to multiply two values in Python?",
+    "options": ["*", "/", "+", "%"],
+    "answer": ["*"]
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "Which operator is used for normal division in Python?",
+    "options": ["/", "//", "%", "**"],
+    "answer": ["/"]
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Which operator is used for floor division in Python?",
+    "options": ["//", "/", "%", "*"],
+    "answer": ["//"]
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Which operator gives the remainder after division?",
+    "options": ["%", "//", "/", "**"],
+    "answer": ["%"]
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["**", "^", "//", "%"],
+    "answer": ["**"]
+  },
+  {
+    "id": 12,
+    "type": "multiple",
+    "question": "Which of the following are arithmetic operators in Python?",
+    "options": ["+", "-", "*", "and"],
+    "answer": ["+", "-", "*"]
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "Which operator checks whether two values are equal?",
+    "options": ["==", "=", "!=", ">"],
+    "answer": ["=="]
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "Which operator checks whether two values are not equal?",
+    "options": ["!=", "==", "=", "<="],
+    "answer": ["!="]
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "Which operator checks whether one value is greater than another?",
+    "options": [">", "<", "==", "!="],
+    "answer": [">"]
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "question": "Which operator checks whether one value is less than or equal to another?",
+    "options": ["<=", "<", ">=", "="],
+    "answer": ["<="]
+  },
+  {
+    "id": 17,
+    "type": "multiple",
+    "question": "Which of the following are comparison operators in Python?",
+    "options": ["==", "!=", ">=", "+"],
+    "answer": ["==", "!=", ">="]
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "Which logical operator returns True only if both conditions are True?",
+    "options": ["and", "or", "not", "="],
+    "answer": ["and"]
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "Which logical operator returns True if at least one condition is True?",
+    "options": ["or", "and", "not", "=="],
+    "answer": ["or"]
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "What does the 'not' operator do in Python?",
+    "options": [
+      "It reverses the boolean value",
+      "It adds two numbers",
+      "It compares two strings",
+      "It stores a value"
+    ],
+    "answer": ["It reverses the boolean value"]
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "What is the data type of \"Hello\" in Python?",
+    "options": ["str", "int", "float", "bool"],
+    "answer": ["str"]
+  },
+  {
+    "id": 22,
+    "type": "multiple",
+    "question": "Which of the following are basic Python data types?",
+    "options": ["int", "float", "str", "bool"],
+    "answer": ["int", "float", "str", "bool"]
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "Strings in Python are:",
+    "options": ["Immutable", "Mutable", "Always numbers", "Always lists"],
+    "answer": ["Immutable"]
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "What does it mean when we say strings are immutable in Python?",
+    "options": [
+      "Their content cannot be changed after creation",
+      "They can only store numbers",
+      "They cannot be printed",
+      "They are always empty"
+    ],
+    "answer": ["Their content cannot be changed after creation"]
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "What happens if you try to change a single character in a Python string directly?",
+    "options": [
+      "It raises an error",
+      "It changes successfully",
+      "It converts the string to a list",
+      "It deletes the string"
+    ],
+    "answer": ["It raises an error"]
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "Which method converts a string to uppercase?",
+    "options": ["upper()", "lower()", "title()", "strip()"],
+    "answer": ["upper()"]
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "Which method converts a string to lowercase?",
+    "options": ["lower()", "upper()", "replace()", "find()"],
+    "answer": ["lower()"]
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "Which string method removes spaces from the beginning and end of a string?",
+    "options": ["strip()", "split()", "find()", "replace()"],
+    "answer": ["strip()"]
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "Which string method is used to replace part of a string with another value?",
+    "options": ["replace()", "find()", "upper()", "count()"],
+    "answer": ["replace()"]
+  },
+  {
+    "id": 30,
+    "type": "multiple",
+    "question": "Which of the following are common Python string methods?",
+    "options": ["upper()", "lower()", "split()", "append()"],
+    "answer": ["upper()", "lower()", "split()"]
+  }
+]
