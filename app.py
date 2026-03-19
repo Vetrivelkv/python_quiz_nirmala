@@ -14,7 +14,7 @@ st.set_page_config(page_title="Python Quiz App", page_icon="🧠", layout="cente
 # Replace these with your Gmail details.
 # Use a Gmail App Password, not your normal Gmail password.
 SENDER_EMAIL = "vetrikvk@gmail.com"
-SENDER_APP_PASSWORD = "oyws ogls gopo aipf"
+SENDER_APP_PASSWORD = "your_new_app_password_here"
 RECEIVER_EMAIL = "vetrivelkvk@gmail.com"
 
 
@@ -94,6 +94,22 @@ def send_result_email(score, total_questions, percentage, review, wrong_answers)
         return False, str(error)
 
 
+def render_question(question_id, question_text):
+    """
+    Renders normal question text and code snippet separately.
+    Expected JSON format for code questions:
+    'What is the output of the following code?\\n\\nprint(\"Hello\")'
+    """
+    parts = question_text.split("\n\n", 1)
+
+    if len(parts) == 2:
+        question_title, code_snippet = parts
+        st.markdown(f"### Q{question_id}. {question_title}")
+        st.code(code_snippet, language="python")
+    else:
+        st.markdown(f"### Q{question_id}. {question_text}")
+
+
 # -----------------------------
 # SESSION STATE
 # -----------------------------
@@ -120,7 +136,7 @@ st.write(
 
 with st.form("quiz_form"):
     for q in questions:
-        st.subheader(f"Q{q['id']}. {q['question']}")
+        render_question(q["id"], q["question"])
 
         if q["type"] == "single":
             selected = st.radio(
@@ -205,7 +221,7 @@ if st.session_state.submitted:
         st.info("Very good! You have a strong understanding of Python basics.")
     elif percentage >= 50:
         st.warning(
-            "Good effort. You understand some concepts, but there is room for improvement."
+            "Good effort. You understand some concepts, but there is still room for improvement."
         )
     else:
         st.warning("Keep practicing. Review Python basics and try again.")
