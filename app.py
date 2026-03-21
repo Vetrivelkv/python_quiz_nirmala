@@ -12,7 +12,7 @@ st.set_page_config(page_title="Python Quiz App", page_icon="🧠", layout="cente
 # -----------------------------
 # Replace with your real values.
 # Use a Gmail App Password, not your normal Gmail password.
-SENDER_EMAIL = "your_email@gmail.com"
+SENDER_EMAIL = "vetrikvk@gmail.com"
 SENDER_APP_PASSWORD = "yyxe hzeo mnox hnlx"
 RECEIVER_EMAILS = [
     "knkarthi2002@gmail.com",
