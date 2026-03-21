@@ -2,271 +2,240 @@
   {
     "id": 1,
     "type": "single",
-    "question": "Which category does the '&' symbol belong to in Python?",
+    "question": "What is Python?",
     "options": [
-      "Bitwise operator",
-      "Membership operator",
-      "Identity operator",
-      "Logical operator"
+      "A programming language",
+      "A web browser",
+      "A database",
+      "An operating system"
     ],
-    "answer": ["Bitwise operator"]
+    "answer": ["A programming language"]
   },
   {
     "id": 2,
     "type": "single",
-    "question": "What does the '|' bitwise operator do in Python?",
-    "options": [
-      "Performs bitwise OR",
-      "Checks identity",
-      "Checks membership",
-      "Performs logical AND"
-    ],
-    "answer": ["Performs bitwise OR"]
+    "question": "Python is mainly used for:",
+    "options": ["Programming", "Cooking", "Painting", "Driving"],
+    "answer": ["Programming"]
   },
   {
     "id": 3,
-    "type": "single",
-    "question": "Which bitwise operator is used to invert all bits?",
-    "options": ["~", "^", "&", ">>"],
-    "answer": ["~"]
+    "type": "multiple",
+    "question": "Which of the following are common uses of Python in Data Science?",
+    "options": [
+      "Data analysis",
+      "Data visualization",
+      "Building ML models",
+      "Repairing hardware"
+    ],
+    "answer": ["Data analysis", "Data visualization", "Building ML models"]
   },
   {
     "id": 4,
     "type": "single",
-    "question": "What does the 'in' operator do in Python?",
+    "question": "Why is Python popular in Machine Learning?",
     "options": [
-      "Checks whether a value exists in a sequence",
-      "Checks whether two variables point to the same object",
-      "Performs bitwise comparison",
-      "Assigns a value to a variable"
+      "It has many useful libraries",
+      "It only works for games",
+      "It cannot handle data",
+      "It replaces databases"
     ],
-    "answer": ["Checks whether a value exists in a sequence"]
+    "answer": ["It has many useful libraries"]
   },
   {
     "id": 5,
-    "type": "single",
-    "question": "Which operator checks that a value is not present in a sequence?",
-    "options": ["not in", "is not", "~", "!="],
-    "answer": ["not in"]
+    "type": "multiple",
+    "question": "Python is widely used in which areas?",
+    "options": [
+      "Web development",
+      "Data Science",
+      "Machine Learning",
+      "Cutting wood"
+    ],
+    "answer": ["Web development", "Data Science", "Machine Learning"]
   },
   {
     "id": 6,
-    "type": "multiple",
-    "question": "Which of the following are membership operators in Python?",
-    "options": ["in", "not in", "is", "is not"],
-    "answer": ["in", "not in"]
+    "type": "single",
+    "question": "What does the print() function do in Python?",
+    "options": [
+      "Displays output on the screen",
+      "Stores a value",
+      "Deletes a variable",
+      "Creates a loop"
+    ],
+    "answer": ["Displays output on the screen"]
   },
   {
     "id": 7,
     "type": "single",
-    "question": "What does the 'is' operator check in Python?",
+    "question": "Which statement prints Hello in Python?",
     "options": [
-      "Whether two references point to the same object",
-      "Whether two values are equal",
-      "Whether a value exists in a list",
-      "Whether both conditions are true"
+      "print(\"Hello\")",
+      "echo(\"Hello\")",
+      "show(\"Hello\")",
+      "display(\"Hello\")"
     ],
-    "answer": ["Whether two references point to the same object"]
+    "answer": ["print(\"Hello\")"]
   },
   {
     "id": 8,
     "type": "single",
-    "question": "Which operator is the opposite of 'is'?",
-    "options": ["is not", "!=", "not in", "~"],
-    "answer": ["is not"]
+    "question": "What will print(5) display?",
+    "options": ["5", "\"5\"", "Error", "Nothing"],
+    "answer": ["5"]
   },
   {
     "id": 9,
-    "type": "single",
-    "question": "Which category do 'is' and 'is not' belong to in Python?",
+    "type": "multiple",
+    "question": "Which of the following are valid print() examples?",
     "options": [
-      "Identity operators",
-      "Arithmetic operators",
-      "Membership operators",
-      "Comparison operators"
+      "print(\"Python\")",
+      "print(100)",
+      "print(True)",
+      "show(\"Python\")"
     ],
-    "answer": ["Identity operators"]
+    "answer": ["print(\"Python\")", "print(100)", "print(True)"]
   },
   {
     "id": 10,
     "type": "single",
-    "question": "What is the main use of the string method upper()?",
+    "question": "What is a variable in Python?",
     "options": [
-      "Converts all characters to uppercase",
-      "Converts all characters to lowercase",
-      "Removes spaces from both ends",
-      "Splits a string into parts"
+      "A name used to store a value",
+      "A type of error",
+      "A Python library",
+      "A loop statement"
     ],
-    "answer": ["Converts all characters to uppercase"]
+    "answer": ["A name used to store a value"]
   },
   {
     "id": 11,
     "type": "single",
-    "question": "What is the main use of the string method lower()?",
-    "options": [
-      "Converts all characters to lowercase",
-      "Converts all characters to uppercase",
-      "Finds the position of text",
-      "Replaces part of a string"
-    ],
-    "answer": ["Converts all characters to lowercase"]
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": ["=", "==", "!=", "+"],
+    "answer": ["="]
   },
   {
     "id": 12,
     "type": "single",
-    "question": "What is the main use of the string method strip()?",
+    "question": "What does x = 10 mean?",
     "options": [
-      "Removes spaces from the beginning and end",
-      "Breaks a string into a list",
-      "Counts characters",
-      "Joins multiple strings"
+      "The value 10 is stored in x",
+      "x and 10 are compared",
+      "x is deleted",
+      "10 is printed automatically"
     ],
-    "answer": ["Removes spaces from the beginning and end"]
+    "answer": ["The value 10 is stored in x"]
   },
   {
     "id": 13,
     "type": "single",
-    "question": "What is the main use of the string method replace()?",
-    "options": [
-      "Replaces one part of a string with another",
-      "Converts a string to uppercase",
-      "Removes spaces from both ends",
-      "Finds the length of a string"
-    ],
-    "answer": ["Replaces one part of a string with another"]
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["student_name", "2name", "class", "my-name"],
+    "answer": ["student_name"]
   },
   {
     "id": 14,
-    "type": "single",
-    "question": "What is the main use of the string method split()?",
-    "options": [
-      "Splits a string into a list",
-      "Reverses a string",
-      "Converts to lowercase",
-      "Checks object identity"
-    ],
-    "answer": ["Splits a string into a list"]
+    "type": "multiple",
+    "question": "Which of the following are valid variable assignments in Python?",
+    "options": ["x = 5", "name = \"Vetri\"", "price = 10.5", "7value = 8"],
+    "answer": ["x = 5", "name = \"Vetri\"", "price = 10.5"]
   },
   {
     "id": 15,
     "type": "single",
-    "question": "What is the main use of the string method find()?",
+    "question": "Where is a variable's value stored when assigned?",
     "options": [
-      "Returns the position of the first occurrence of a substring",
-      "Deletes part of a string",
-      "Converts text to uppercase",
-      "Removes all spaces"
+      "In memory",
+      "In the keyboard",
+      "In the monitor",
+      "In the browser only"
     ],
-    "answer": ["Returns the position of the first occurrence of a substring"]
+    "answer": ["In memory"]
   },
   {
     "id": 16,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"python\"\nprint(text.upper())",
-    "options": ["PYTHON", "python", "Python", "ERROR"],
-    "answer": ["PYTHON"]
+    "question": "If age = 20, what is age?",
+    "options": ["A variable", "A function", "A keyword", "A comment"],
+    "answer": ["A variable"]
   },
   {
     "id": 17,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"HeLLo\"\nprint(text.lower())",
-    "options": ["hello", "HELLO", "HeLLo", "Hello"],
-    "answer": ["hello"]
+    "question": "What is the data type of 100?",
+    "options": ["int", "str", "float", "bool"],
+    "answer": ["int"]
   },
   {
     "id": 18,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"  code  \"\nprint(text.strip())",
-    "options": ["code", "  code  ", "code  ", "  code"],
-    "answer": ["code"]
+    "question": "What is the data type of 10.5?",
+    "options": ["float", "int", "str", "list"],
+    "answer": ["float"]
   },
   {
     "id": 19,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"I like Java\"\nprint(text.replace(\"Java\", \"Python\"))",
-    "options": ["I like Python", "I like Java", "Python", "ERROR"],
-    "answer": ["I like Python"]
+    "question": "What is the data type of \"Python\"?",
+    "options": ["str", "int", "bool", "tuple"],
+    "answer": ["str"]
   },
   {
     "id": 20,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"red,blue,green\"\nprint(text.split(\",\"))",
-    "options": [
-      "[\"red\", \"blue\", \"green\"]",
-      "\"red,blue,green\"",
-      "\"red\" \"blue\" \"green\"",
-      "ERROR"
-    ],
-    "answer": ["[\"red\", \"blue\", \"green\"]"]
+    "question": "What is the data type of True?",
+    "options": ["bool", "str", "float", "list"],
+    "answer": ["bool"]
   },
   {
     "id": 21,
-    "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"banana\"\nprint(text.find(\"na\"))",
-    "options": ["2", "3", "4", "-1"],
-    "answer": ["2"]
+    "type": "multiple",
+    "question": "Which of the following are basic Python data types?",
+    "options": ["int", "float", "str", "car"],
+    "answer": ["int", "float", "str"]
   },
   {
     "id": 22,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and True)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "type": "multiple",
+    "question": "Which values are integers in Python?",
+    "options": ["25", "-10", "0", "3.14"],
+    "answer": ["25", "-10", "0"]
   },
   {
     "id": 23,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "Which data type is used for decimal numbers?",
+    "options": ["float", "int", "str", "bool"],
+    "answer": ["float"]
   },
   {
     "id": 24,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(False or True)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "question": "Which data type is used for text values?",
+    "options": ["str", "int", "bool", "float"],
+    "answer": ["str"]
   },
   {
     "id": 25,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(False or False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "Which data type is used for True and False values?",
+    "options": ["bool", "str", "float", "dict"],
+    "answer": ["bool"]
   },
   {
     "id": 26,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not True)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "type": "multiple",
+    "question": "Which of the following are collection data types in Python?",
+    "options": ["list", "tuple", "dict", "screen"],
+    "answer": ["list", "tuple", "dict"]
   },
   {
     "id": 27,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not False)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
-  },
-  {
-    "id": 28,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and not False)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
-  },
-  {
-    "id": 29,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not True or False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
-  },
-  {
-    "id": 30,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nprint((True or False) and False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the data type of [1, 2, 3] in Python?",
+    "options": ["list", "tuple", "str", "int"],
+    "answer": ["list"]
   }
 ]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Which category does the '&' symbol belong to in Python?",
+    "options": [
+      "Bitwise operator",
+      "Membership operator",
+      "Identity operator",
+      "Logical operator"
+    ],
+    "answer": ["Bitwise operator"]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "What does the '|' bitwise operator do in Python?",
+    "options": [
+      "Performs bitwise OR",
+      "Checks identity",
+      "Checks membership",
+      "Performs logical AND"
+    ],
+    "answer": ["Performs bitwise OR"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Which bitwise operator is used to invert all bits?",
+    "options": ["~", "^", "&", ">>"],
+    "answer": ["~"]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "What does the 'in' operator do in Python?",
+    "options": [
+      "Checks whether a value exists in a sequence",
+      "Checks whether two variables point to the same object",
+      "Performs bitwise comparison",
+      "Assigns a value to a variable"
+    ],
+    "answer": ["Checks whether a value exists in a sequence"]
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "Which operator checks that a value is not present in a sequence?",
+    "options": ["not in", "is not", "~", "!="],
+    "answer": ["not in"]
+  },
+  {
+    "id": 6,
+    "type": "multiple",
+    "question": "Which of the following are membership operators in Python?",
+    "options": ["in", "not in", "is", "is not"],
+    "answer": ["in", "not in"]
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "What does the 'is' operator check in Python?",
+    "options": [
+      "Whether two references point to the same object",
+      "Whether two values are equal",
+      "Whether a value exists in a list",
+      "Whether both conditions are true"
+    ],
+    "answer": ["Whether two references point to the same object"]
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "Which operator is the opposite of 'is'?",
+    "options": ["is not", "!=", "not in", "~"],
+    "answer": ["is not"]
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Which category do 'is' and 'is not' belong to in Python?",
+    "options": [
+      "Identity operators",
+      "Arithmetic operators",
+      "Membership operators",
+      "Comparison operators"
+    ],
+    "answer": ["Identity operators"]
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "What is the main use of the string method upper()?",
+    "options": [
+      "Converts all characters to uppercase",
+      "Converts all characters to lowercase",
+      "Removes spaces from both ends",
+      "Splits a string into parts"
+    ],
+    "answer": ["Converts all characters to uppercase"]
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "What is the main use of the string method lower()?",
+    "options": [
+      "Converts all characters to lowercase",
+      "Converts all characters to uppercase",
+      "Finds the position of text",
+      "Replaces part of a string"
+    ],
+    "answer": ["Converts all characters to lowercase"]
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "What is the main use of the string method strip()?",
+    "options": [
+      "Removes spaces from the beginning and end",
+      "Breaks a string into a list",
+      "Counts characters",
+      "Joins multiple strings"
+    ],
+    "answer": ["Removes spaces from the beginning and end"]
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "What is the main use of the string method replace()?",
+    "options": [
+      "Replaces one part of a string with another",
+      "Converts a string to uppercase",
+      "Removes spaces from both ends",
+      "Finds the length of a string"
+    ],
+    "answer": ["Replaces one part of a string with another"]
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "What is the main use of the string method split()?",
+    "options": [
+      "Splits a string into a list",
+      "Reverses a string",
+      "Converts to lowercase",
+      "Checks object identity"
+    ],
+    "answer": ["Splits a string into a list"]
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "What is the main use of the string method find()?",
+    "options": [
+      "Returns the position of the first occurrence of a substring",
+      "Deletes part of a string",
+      "Converts text to uppercase",
+      "Removes all spaces"
+    ],
+    "answer": ["Returns the position of the first occurrence of a substring"]
+  },
+  {
+    "id": 16,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"python\"\nprint(text.upper())",
+    "options": ["PYTHON", "python", "Python", "ERROR"],
+    "answer": ["PYTHON"]
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"HeLLo\"\nprint(text.lower())",
+    "options": ["hello", "HELLO", "HeLLo", "Hello"],
+    "answer": ["hello"]
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"  code  \"\nprint(text.strip())",
+    "options": ["code", "  code  ", "code  ", "  code"],
+    "answer": ["code"]
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"I like Java\"\nprint(text.replace(\"Java\", \"Python\"))",
+    "options": ["I like Python", "I like Java", "Python", "ERROR"],
+    "answer": ["I like Python"]
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"red,blue,green\"\nprint(text.split(\",\"))",
+    "options": [
+      "[\"red\", \"blue\", \"green\"]",
+      "\"red,blue,green\"",
+      "\"red\" \"blue\" \"green\"",
+      "ERROR"
+    ],
+    "answer": ["[\"red\", \"blue\", \"green\"]"]
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "What is the output of the following code?\n\ntext = \"banana\"\nprint(text.find(\"na\"))",
+    "options": ["2", "3", "4", "-1"],
+    "answer": ["2"]
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(True and True)",
+    "options": ["True", "False", "None", "ERROR"],
+    "answer": ["True"]
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(True and False)",
+    "options": ["False", "True", "None", "ERROR"],
+    "answer": ["False"]
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(False or True)",
+    "options": ["True", "False", "None", "ERROR"],
+    "answer": ["True"]
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(False or False)",
+    "options": ["False", "True", "None", "ERROR"],
+    "answer": ["False"]
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(not True)",
+    "options": ["False", "True", "None", "ERROR"],
+    "answer": ["False"]
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(not False)",
+    "options": ["True", "False", "None", "ERROR"],
+    "answer": ["True"]
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(True and not False)",
+    "options": ["True", "False", "None", "ERROR"],
+    "answer": ["True"]
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint(not True or False)",
+    "options": ["False", "True", "None", "ERROR"],
+    "answer": ["False"]
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "What is the output of the following code?\n\nprint((True or False) and False)",
+    "options": ["False", "True", "None", "ERROR"],
+    "answer": ["False"]
+  }
+]
