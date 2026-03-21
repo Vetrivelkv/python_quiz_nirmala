@@ -260,6 +260,25 @@ if st.session_state.submitted:
         "wrong_answers": wrong_answers,
     }
 
+    # AUTO EMAIL SEND
+    if not st.session_state.email_sent:
+        result = st.session_state.result_data
+
+        success, error_message = send_result_email(
+            quiz_name=result["quiz_name"],
+            score=result["score"],
+            total_questions=result["total_questions"],
+            percentage=result["percentage"],
+            review=result["review"],
+            wrong_answers=result["wrong_answers"],
+        )
+
+        if success:
+            st.session_state.email_sent = True
+            st.success("Quiz result email sent automatically.")
+        else:
+            st.error(f"Failed to send email: {error_message}")
+
     if percentage == 100:
         st.balloons()
         st.success("Excellent! You answered all questions correctly.")
@@ -272,27 +291,6 @@ if st.session_state.submitted:
     else:
         st.warning("Keep practicing. Review the concepts and try again.")
 
-    col1, col2 = st.columns(2)
-
-    with col1:
-        if st.button("Send Result to Email"):
-            result = st.session_state.result_data
-            success, error_message = send_result_email(
-                quiz_name=result["quiz_name"],
-                score=result["score"],
-                total_questions=result["total_questions"],
-                percentage=result["percentage"],
-                review=result["review"],
-                wrong_answers=result["wrong_answers"],
-            )
-
-            if success:
-                st.session_state.email_sent = True
-                st.success("Quiz result email sent successfully.")
-            else:
-                st.error(f"Failed to send email: {error_message}")
-
-    with col2:
-        if st.button("Restart Quiz"):
-            reset_quiz_state()
-            st.rerun()
+    if st.button("Restart Quiz"):
+        reset_quiz_state()
+        st.rerun()
