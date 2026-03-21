@@ -30,6 +30,7 @@ QUIZ_FILES = {
     "Quiz 4 - Lists": "4_questions.json",
     "Quiz 5 - Tuples and Set": "5_questions.json",
     "Quiz 6 - Dictionary": "6_questions.json",
+    "Quiz 7 - Conditional statements": "7_questions.json",
 }
 
 

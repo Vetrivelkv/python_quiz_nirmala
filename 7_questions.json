@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "What is a conditional statement in Python?",
+    "options": [
+      "A way to make decisions in code",
+      "A loop",
+      "A function",
+      "A variable"
+    ],
+    "answer": ["A way to make decisions in code"]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "Which keyword is used to start a condition in Python?",
+    "options": ["if", "for", "while", "def"],
+    "answer": ["if"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Which keyword is used for an alternative condition?",
+    "options": ["elif", "else if", "elseif", "alt"],
+    "answer": ["elif"]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "Which keyword is used when all conditions fail?",
+    "options": ["else", "elif", "default", "none"],
+    "answer": ["else"]
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "What is the correct syntax for an if statement?",
+    "options": [
+      "if condition:",
+      "if(condition)",
+      "if condition then",
+      "if {condition}"
+    ],
+    "answer": ["if condition:"]
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "Why is indentation important in Python?",
+    "options": [
+      "To define blocks of code",
+      "For decoration",
+      "To avoid errors only",
+      "Not important"
+    ],
+    "answer": ["To define blocks of code"]
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "Which operator is used for equality check?",
+    "options": ["==", "=", "!=", "+"],
+    "answer": ["=="]
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "Which operator means 'not equal'?",
+    "options": ["!=", "==", "=", "<>"],
+    "answer": ["!="]
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Which logical operator means AND?",
+    "options": ["and", "or", "not", "&"],
+    "answer": ["and"]
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Which logical operator means OR?",
+    "options": ["or", "and", "not", "|"],
+    "answer": ["or"]
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "Which logical operator reverses a condition?",
+    "options": ["not", "and", "or", "!"],
+    "answer": ["not"]
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "Can we use multiple elif conditions?",
+    "options": ["Yes", "No", "Only one allowed", "Sometimes"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "Can an if statement exist without else?",
+    "options": ["Yes", "No", "Only with elif", "Only with print"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "What is a nested if?",
+    "options": ["An if inside another if", "A loop", "A function", "An error"],
+    "answer": ["An if inside another if"]
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "Which is a real-world example of conditional statements?",
+    "options": [
+      "Checking if a user is eligible to vote",
+      "Storing numbers",
+      "Creating a list",
+      "Printing text"
+    ],
+    "answer": ["Checking if a user is eligible to vote"]
+  },
+
+  {
+    "id": 16,
+    "type": "single",
+    "question": "What is the output?\n\nx = 10\nif x > 5:\n    print(\"High\")",
+    "options": ["High", "Low", "Error", "Nothing"],
+    "answer": ["High"]
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "What is the output?\n\nx = 3\nif x > 5:\n    print(\"High\")",
+    "options": ["High", "Nothing", "Error", "Low"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "What is the output?\n\nx = 5\nif x == 5:\n    print(\"Equal\")",
+    "options": ["Equal", "Not Equal", "Error", "Nothing"],
+    "answer": ["Equal"]
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "What is the output?\n\nx = 5\nif x != 5:\n    print(\"Not Equal\")",
+    "options": ["Nothing", "Not Equal", "Error", "Equal"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "What is the output?\n\nx = 7\nif x > 5:\n    print(\"A\")\nelse:\n    print(\"B\")",
+    "options": ["A", "B", "Error", "Nothing"],
+    "answer": ["A"]
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "What is the output?\n\nx = 2\nif x > 5:\n    print(\"A\")\nelse:\n    print(\"B\")",
+    "options": ["B", "A", "Error", "Nothing"],
+    "answer": ["B"]
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "What is the output?\n\nx = 10\nif x > 5 and x < 15:\n    print(\"Yes\")",
+    "options": ["Yes", "No", "Error", "Nothing"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "What is the output?\n\nx = 20\nif x > 5 and x < 15:\n    print(\"Yes\")",
+    "options": ["Nothing", "Yes", "Error", "No"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "What is the output?\n\nx = 3\nif x < 5 or x > 10:\n    print(\"True\")",
+    "options": ["True", "False", "Error", "Nothing"],
+    "answer": ["True"]
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "What is the output?\n\nx = 8\nif not x > 5:\n    print(\"Yes\")",
+    "options": ["Nothing", "Yes", "Error", "No"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "What is the output?\n\nx = 4\nif not x > 5:\n    print(\"Yes\")",
+    "options": ["Yes", "No", "Error", "Nothing"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "What is the output?\n\nx = 10\nif x > 5:\n    if x < 15:\n        print(\"Valid\")",
+    "options": ["Valid", "Error", "Nothing", "Invalid"],
+    "answer": ["Valid"]
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "What is the output?\n\nx = 10\nif x < 5:\n    print(\"A\")\nelif x == 10:\n    print(\"B\")",
+    "options": ["B", "A", "Error", "Nothing"],
+    "answer": ["B"]
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "What is the output?\n\nx = 2\nif x > 5:\n    print(\"A\")\nelif x > 1:\n    print(\"B\")",
+    "options": ["B", "A", "Error", "Nothing"],
+    "answer": ["B"]
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "What is the output?\n\nx = 1\nif x > 5:\n    print(\"A\")\nelif x > 2:\n    print(\"B\")\nelse:\n    print(\"C\")",
+    "options": ["C", "A", "B", "Nothing"],
+    "answer": ["C"]
+  }
+]
