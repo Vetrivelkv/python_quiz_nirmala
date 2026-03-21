@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "What is a loop in Python?",
+    "options": [
+      "A way to repeat code multiple times",
+      "A function",
+      "A variable",
+      "A condition"
+    ],
+    "answer": ["A way to repeat code multiple times"]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "Which keyword is used for looping over a sequence?",
+    "options": ["for", "while", "if", "def"],
+    "answer": ["for"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Which loop runs while a condition is true?",
+    "options": ["while", "for", "if", "loop"],
+    "answer": ["while"]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "Which function is commonly used with for loop?",
+    "options": ["range()", "len()", "print()", "type()"],
+    "answer": ["range()"]
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "What does range(5) generate?",
+    "options": ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+    "answer": ["0 to 4"]
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "What does range(1, 5) generate?",
+    "options": ["1 to 4", "1 to 5", "0 to 5", "0 to 4"],
+    "answer": ["1 to 4"]
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "What is the purpose of break?",
+    "options": [
+      "Exit the loop immediately",
+      "Skip iteration",
+      "Restart loop",
+      "Stop program"
+    ],
+    "answer": ["Exit the loop immediately"]
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "What does continue do?",
+    "options": [
+      "Skip current iteration",
+      "Stop loop",
+      "Exit program",
+      "Repeat loop"
+    ],
+    "answer": ["Skip current iteration"]
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Which loop is best when number of iterations is known?",
+    "options": ["for", "while", "if", "def"],
+    "answer": ["for"]
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Which loop is best when condition is unknown?",
+    "options": ["while", "for", "if", "def"],
+    "answer": ["while"]
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "What happens if a while condition never becomes false?",
+    "options": ["Infinite loop", "Error", "Stops automatically", "Skips loop"],
+    "answer": ["Infinite loop"]
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "What is loop variable?",
+    "options": [
+      "Variable used in loop iteration",
+      "Global variable",
+      "Function variable",
+      "Constant"
+    ],
+    "answer": ["Variable used in loop iteration"]
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "Can we use else with loops?",
+    "options": ["Yes", "No", "Only for while", "Only for for"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "What does range(0, 10, 2) generate?",
+    "options": ["0,2,4,6,8", "1,3,5,7,9", "0 to 10", "2,4,6,8,10"],
+    "answer": ["0,2,4,6,8"]
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "Which is a real-world use of loops?",
+    "options": [
+      "Processing list of items",
+      "Declaring variable",
+      "Writing function",
+      "Checking condition"
+    ],
+    "answer": ["Processing list of items"]
+  },
+
+  {
+    "id": 16,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    print(i)",
+    "options": ["0 1 2", "1 2 3", "0 1 2 3", "Error"],
+    "answer": ["0 1 2"]
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(1, 4):\n    print(i)",
+    "options": ["1 2 3", "0 1 2", "1 2 3 4", "Error"],
+    "answer": ["1 2 3"]
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(0, 5, 2):\n    print(i)",
+    "options": ["0 2 4", "1 3 5", "0 1 2", "Error"],
+    "answer": ["0 2 4"]
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    if i == 1:\n        break\n    print(i)",
+    "options": ["0", "0 1", "1 2", "Error"],
+    "answer": ["0"]
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    if i == 1:\n        continue\n    print(i)",
+    "options": ["0 2", "0 1 2", "1 2", "Error"],
+    "answer": ["0 2"]
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "What is the output?\n\ni = 0\nwhile i < 3:\n    print(i)\n    i += 1",
+    "options": ["0 1 2", "1 2 3", "0 1 2 3", "Error"],
+    "answer": ["0 1 2"]
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "What is the output?\n\ni = 0\nwhile i < 3:\n    i += 1\n    print(i)",
+    "options": ["1 2 3", "0 1 2", "0 1 2 3", "Error"],
+    "answer": ["1 2 3"]
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    print(\"Hi\")",
+    "options": ["Hi Hi Hi", "Hi", "Error", "Nothing"],
+    "answer": ["Hi Hi Hi"]
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(2):\n    for j in range(2):\n        print(j)",
+    "options": ["0 1 0 1", "0 1", "1 2", "Error"],
+    "answer": ["0 1 0 1"]
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    print(i, end=\" \")",
+    "options": ["0 1 2", "012", "Error", "0 1 2 3"],
+    "answer": ["0 1 2"]
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(1):\n    print(i)\nelse:\n    print(\"Done\")",
+    "options": ["0 Done", "Done", "0", "Error"],
+    "answer": ["0 Done"]
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    if i == 2:\n        break\nelse:\n    print(\"Done\")",
+    "options": ["Nothing", "Done", "0 1", "Error"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    print(i)\n    break",
+    "options": ["0", "0 1 2", "1", "Error"],
+    "answer": ["0"]
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "What is the output?\n\nfor i in range(3):\n    continue\n    print(i)",
+    "options": ["Nothing", "0 1 2", "Error", "1 2"],
+    "answer": ["Nothing"]
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "What is the output?\n\ni = 0\nwhile i < 2:\n    print(\"Loop\")\n    i += 1",
+    "options": ["Loop Loop", "Loop", "Error", "Nothing"],
+    "answer": ["Loop Loop"]
+  }
+]

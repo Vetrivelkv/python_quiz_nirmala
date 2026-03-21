@@ -31,6 +31,8 @@ QUIZ_FILES = {
     "Quiz 5 - Tuples and Set": "5_questions.json",
     "Quiz 6 - Dictionary": "6_questions.json",
     "Quiz 7 - Conditional statements": "7_questions.json",
+    "Quiz 8 - Loops": "8_questions.json",
+    "Quiz 9 - Functions": "9_questions.json",
 }
 
 
