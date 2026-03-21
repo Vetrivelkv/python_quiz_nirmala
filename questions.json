@@ -2,423 +2,240 @@
   {
     "id": 1,
     "type": "single",
-    "question": "What is a list in Python?",
+    "question": "What is Python?",
     "options": [
-      "A collection of items stored in a single variable",
-      "A way to print output",
-      "A mathematical operator",
-      "A string method"
+      "A programming language",
+      "A web browser",
+      "A database",
+      "An operating system"
     ],
-    "answer": [
-      "A collection of items stored in a single variable"
-    ]
+    "answer": ["A programming language"]
   },
   {
     "id": 2,
     "type": "single",
-    "question": "Which syntax is used to create a list in Python?",
-    "options": [
-      "[1, 2, 3]",
-      "{1, 2, 3}",
-      "(1, 2, 3)",
-      "<1, 2, 3>"
-    ],
-    "answer": [
-      "[1, 2, 3]"
-    ]
+    "question": "Python is mainly used for:",
+    "options": ["Programming", "Cooking", "Painting", "Driving"],
+    "answer": ["Programming"]
   },
   {
     "id": 3,
-    "type": "single",
-    "question": "Why is a Python list called ordered?",
+    "type": "multiple",
+    "question": "Which of the following are common uses of Python in Data Science?",
     "options": [
-      "Because items keep their insertion position",
-      "Because it sorts values automatically",
-      "Because it only stores numbers",
-      "Because it removes duplicates"
+      "Data analysis",
+      "Data visualization",
+      "Building ML models",
+      "Repairing hardware"
     ],
-    "answer": [
-      "Because items keep their insertion position"
-    ]
+    "answer": ["Data analysis", "Data visualization", "Building ML models"]
   },
   {
     "id": 4,
     "type": "single",
-    "question": "Are Python lists mutable?",
+    "question": "Why is Python popular in Machine Learning?",
     "options": [
-      "Yes",
-      "No",
-      "Only for numbers",
-      "Only for strings"
+      "It has many useful libraries",
+      "It only works for games",
+      "It cannot handle data",
+      "It replaces databases"
     ],
-    "answer": [
-      "Yes"
-    ]
+    "answer": ["It has many useful libraries"]
   },
   {
     "id": 5,
-    "type": "single",
-    "question": "What does mutable mean in Python?",
+    "type": "multiple",
+    "question": "Python is widely used in which areas?",
     "options": [
-      "The object can be changed after creation",
-      "The object cannot be changed after creation",
-      "The object can only store one value",
-      "The object is always sorted"
+      "Web development",
+      "Data Science",
+      "Machine Learning",
+      "Cutting wood"
     ],
-    "answer": [
-      "The object can be changed after creation"
-    ]
+    "answer": ["Web development", "Data Science", "Machine Learning"]
   },
   {
     "id": 6,
     "type": "single",
-    "question": "Where are lists commonly used in real programs?",
+    "question": "What does the print() function do in Python?",
     "options": [
-      "To store multiple related values together",
-      "To define operators",
-      "To create comments",
-      "To replace variable names"
+      "Displays output on the screen",
+      "Stores a value",
+      "Deletes a variable",
+      "Creates a loop"
     ],
-    "answer": [
-      "To store multiple related values together"
-    ]
+    "answer": ["Displays output on the screen"]
   },
   {
     "id": 7,
     "type": "single",
-    "question": "Which of the following is a real-time example of a list?",
+    "question": "Which statement prints Hello in Python?",
     "options": [
-      "A shopping cart with multiple products",
-      "A single age value",
-      "One username only",
-      "One boolean value"
+      "print(\"Hello\")",
+      "echo(\"Hello\")",
+      "show(\"Hello\")",
+      "display(\"Hello\")"
     ],
-    "answer": [
-      "A shopping cart with multiple products"
-    ]
+    "answer": ["print(\"Hello\")"]
   },
   {
     "id": 8,
     "type": "single",
-    "question": "Can a Python list contain duplicate values?",
-    "options": [
-      "Yes",
-      "No",
-      "Only sometimes",
-      "Only for strings"
-    ],
-    "answer": [
-      "Yes"
-    ]
+    "question": "What will print(5) display?",
+    "options": ["5", "\"5\"", "Error", "Nothing"],
+    "answer": ["5"]
   },
   {
     "id": 9,
     "type": "multiple",
-    "question": "Which of the following can be stored inside a Python list?",
+    "question": "Which of the following are valid print() examples?",
     "options": [
-      "Numbers",
-      "Strings",
-      "Booleans",
-      "Functions only"
+      "print(\"Python\")",
+      "print(100)",
+      "print(True)",
+      "show(\"Python\")"
     ],
-    "answer": [
-      "Numbers",
-      "Strings",
-      "Booleans"
-    ]
+    "answer": ["print(\"Python\")", "print(100)", "print(True)"]
   },
   {
     "id": 10,
     "type": "single",
-    "question": "What is an index in a list?",
+    "question": "What is a variable in Python?",
     "options": [
-      "The position number of an item",
-      "The value stored in the list",
-      "The size of the list",
-      "A method used to delete items"
+      "A name used to store a value",
+      "A type of error",
+      "A Python library",
+      "A loop statement"
     ],
-    "answer": [
-      "The position number of an item"
-    ]
+    "answer": ["A name used to store a value"]
   },
   {
     "id": 11,
     "type": "single",
-    "question": "What is the index of the first element in a Python list?",
-    "options": [
-      "0",
-      "1",
-      "-1",
-      "Starts from the value itself"
-    ],
-    "answer": [
-      "0"
-    ]
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": ["=", "==", "!=", "+"],
+    "answer": ["="]
   },
   {
     "id": 12,
     "type": "single",
-    "question": "How can you retrieve the first element from a list named colors?",
+    "question": "What does x = 10 mean?",
     "options": [
-      "colors[0]",
-      "colors(0)",
-      "colors{0}",
-      "colors.first()"
+      "The value 10 is stored in x",
+      "x and 10 are compared",
+      "x is deleted",
+      "10 is printed automatically"
     ],
-    "answer": [
-      "colors[0]"
-    ]
+    "answer": ["The value 10 is stored in x"]
   },
   {
     "id": 13,
     "type": "single",
-    "question": "Which method is commonly used to add a new element to the end of a list?",
-    "options": [
-      "append()",
-      "add()",
-      "push()",
-      "insertend()"
-    ],
-    "answer": [
-      "append()"
-    ]
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["student_name", "2name", "class", "my-name"],
+    "answer": ["student_name"]
   },
   {
     "id": 14,
-    "type": "single",
-    "question": "Which method removes a specific value from a list?",
-    "options": [
-      "remove()",
-      "delete()",
-      "clearone()",
-      "drop()"
-    ],
-    "answer": [
-      "remove()"
-    ]
+    "type": "multiple",
+    "question": "Which of the following are valid variable assignments in Python?",
+    "options": ["x = 5", "name = \"Vetri\"", "price = 10.5", "7value = 8"],
+    "answer": ["x = 5", "name = \"Vetri\"", "price = 10.5"]
   },
   {
     "id": 15,
     "type": "single",
-    "question": "How do you find the total number of items in a list named fruits?",
+    "question": "Where is a variable's value stored when assigned?",
     "options": [
-      "len(fruits)",
-      "fruits.len()",
-      "count(fruits)",
-      "size(fruits)"
+      "In memory",
+      "In the keyboard",
+      "In the monitor",
+      "In the browser only"
     ],
-    "answer": [
-      "len(fruits)"
-    ]
+    "answer": ["In memory"]
   },
   {
     "id": 16,
     "type": "single",
-    "question": "What is the output of the following code?\n\nitems = [10, 20, 30]\nprint(items)",
-    "options": [
-      "[10, 20, 30]",
-      "10, 20, 30",
-      "(10, 20, 30)",
-      "ERROR"
-    ],
-    "answer": [
-      "[10, 20, 30]"
-    ]
+    "question": "If age = 20, what is age?",
+    "options": ["A variable", "A function", "A keyword", "A comment"],
+    "answer": ["A variable"]
   },
   {
     "id": 17,
     "type": "single",
-    "question": "What is the output of the following code?\n\ncolors = [\"red\", \"blue\", \"green\"]\nprint(colors[0])",
-    "options": [
-      "red",
-      "blue",
-      "green",
-      "ERROR"
-    ],
-    "answer": [
-      "red"
-    ]
+    "question": "What is the data type of 100?",
+    "options": ["int", "str", "float", "bool"],
+    "answer": ["int"]
   },
   {
     "id": 18,
     "type": "single",
-    "question": "What is the output of the following code?\n\ncolors = [\"red\", \"blue\", \"green\"]\nprint(colors[2])",
-    "options": [
-      "green",
-      "blue",
-      "red",
-      "ERROR"
-    ],
-    "answer": [
-      "green"
-    ]
+    "question": "What is the data type of 10.5?",
+    "options": ["float", "int", "str", "list"],
+    "answer": ["float"]
   },
   {
     "id": 19,
     "type": "single",
-    "question": "What is the output of the following code?\n\nnumbers = [1, 2, 3]\nnumbers.append(4)\nprint(numbers)",
-    "options": [
-      "[1, 2, 3, 4]",
-      "[4, 1, 2, 3]",
-      "[1, 2, 3]",
-      "ERROR"
-    ],
-    "answer": [
-      "[1, 2, 3, 4]"
-    ]
+    "question": "What is the data type of \"Python\"?",
+    "options": ["str", "int", "bool", "tuple"],
+    "answer": ["str"]
   },
   {
     "id": 20,
     "type": "single",
-    "question": "What is the output of the following code?\n\nfruits = [\"apple\", \"banana\", \"mango\"]\nfruits.remove(\"banana\")\nprint(fruits)",
-    "options": [
-      "[\"apple\", \"mango\"]",
-      "[\"banana\", \"mango\"]",
-      "[\"apple\", \"banana\"]",
-      "ERROR"
-    ],
-    "answer": [
-      "[\"apple\", \"mango\"]"
-    ]
+    "question": "What is the data type of True?",
+    "options": ["bool", "str", "float", "list"],
+    "answer": ["bool"]
   },
   {
     "id": 21,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nvalues = [5, 10, 15]\nprint(len(values))",
-    "options": [
-      "3",
-      "2",
-      "15",
-      "ERROR"
-    ],
-    "answer": [
-      "3"
-    ]
+    "type": "multiple",
+    "question": "Which of the following are basic Python data types?",
+    "options": ["int", "float", "str", "car"],
+    "answer": ["int", "float", "str"]
   },
   {
     "id": 22,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nitems = [\"pen\", \"pencil\", \"eraser\"]\nprint(items[1])",
-    "options": [
-      "pencil",
-      "pen",
-      "eraser",
-      "ERROR"
-    ],
-    "answer": [
-      "pencil"
-    ]
+    "type": "multiple",
+    "question": "Which values are integers in Python?",
+    "options": ["25", "-10", "0", "3.14"],
+    "answer": ["25", "-10", "0"]
   },
   {
     "id": 23,
     "type": "single",
-    "question": "What is the output of the following code?\n\nnums = [1, 1, 2, 3]\nprint(nums)",
-    "options": [
-      "[1, 1, 2, 3]",
-      "[1, 2, 3]",
-      "(1, 1, 2, 3)",
-      "ERROR"
-    ],
-    "answer": [
-      "[1, 1, 2, 3]"
-    ]
+    "question": "Which data type is used for decimal numbers?",
+    "options": ["float", "int", "str", "bool"],
+    "answer": ["float"]
   },
   {
     "id": 24,
     "type": "single",
-    "question": "What is the output of the following code?\n\ndata = [100, 200, 300]\ndata[1] = 500\nprint(data)",
-    "options": [
-      "[100, 500, 300]",
-      "[100, 200, 300]",
-      "[500, 200, 300]",
-      "ERROR"
-    ],
-    "answer": [
-      "[100, 500, 300]"
-    ]
+    "question": "Which data type is used for text values?",
+    "options": ["str", "int", "bool", "float"],
+    "answer": ["str"]
   },
   {
     "id": 25,
     "type": "single",
-    "question": "What is the output of the following code?\n\nletters = [\"a\", \"b\", \"c\"]\nprint(letters[-1])",
-    "options": [
-      "c",
-      "a",
-      "b",
-      "ERROR"
-    ],
-    "answer": [
-      "c"
-    ]
+    "question": "Which data type is used for True and False values?",
+    "options": ["bool", "str", "float", "dict"],
+    "answer": ["bool"]
   },
   {
     "id": 26,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nscores = [50, 60]\nscores.append(70)\nprint(scores[2])",
-    "options": [
-      "70",
-      "60",
-      "50",
-      "ERROR"
-    ],
-    "answer": [
-      "70"
-    ]
+    "type": "multiple",
+    "question": "Which of the following are collection data types in Python?",
+    "options": ["list", "tuple", "dict", "screen"],
+    "answer": ["list", "tuple", "dict"]
   },
   {
     "id": 27,
     "type": "single",
-    "question": "What is the output of the following code?\n\nnames = [\"Ana\", \"Ben\", \"Cara\"]\nprint(names[0], names[2])",
-    "options": [
-      "Ana Cara",
-      "Ben Cara",
-      "Ana Ben",
-      "ERROR"
-    ],
-    "answer": [
-      "Ana Cara"
-    ]
-  },
-  {
-    "id": 28,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nitems = [10, 20, 30, 40]\nprint(items[3])",
-    "options": [
-      "40",
-      "30",
-      "20",
-      "ERROR"
-    ],
-    "answer": [
-      "40"
-    ]
-  },
-  {
-    "id": 29,
-    "type": "single",
-    "question": "What is the output of the following code?\n\ncities = [\"Chennai\", \"Mumbai\"]\ncities.append(\"Delhi\")\nprint(len(cities))",
-    "options": [
-      "3",
-      "2",
-      "1",
-      "ERROR"
-    ],
-    "answer": [
-      "3"
-    ]
-  },
-  {
-    "id": 30,
-    "type": "single",
-    "question": "What is the output of the following code?\n\nitems = [\"x\", \"y\", \"z\"]\nitems.remove(\"y\")\nprint(items[1])",
-    "options": [
-      "z",
-      "y",
-      "x",
-      "ERROR"
-    ],
-    "answer": [
-      "z"
-    ]
+    "question": "What is the data type of [1, 2, 3] in Python?",
+    "options": ["list", "tuple", "str", "int"],
+    "answer": ["list"]
   }
 ]
