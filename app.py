@@ -28,6 +28,7 @@ QUIZ_FILES = {
     "Quiz 2 - Variables": "2_questions.json",
     "Quiz 3 - Strings and Operators": "3_questions.json",
     "Quiz 4 - Lists": "4_questions.json",
+    "Quiz 5 - Tuples and Set": "5_questions.json",
 }
 
 
