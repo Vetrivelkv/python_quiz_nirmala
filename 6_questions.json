@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "What is a dictionary in Python?",
+    "options": [
+      "A collection of key-value pairs",
+      "A list of values",
+      "A tuple",
+      "A string"
+    ],
+    "answer": ["A collection of key-value pairs"]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "Which syntax is used to create a dictionary?",
+    "options": ["{\"a\": 1, \"b\": 2}", "[1, 2, 3]", "(1, 2, 3)", "<a:1>"],
+    "answer": ["{\"a\": 1, \"b\": 2}"]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "Are dictionaries mutable?",
+    "options": ["Yes", "No", "Sometimes", "Only strings"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "What does mutable mean?",
+    "options": [
+      "Can be changed after creation",
+      "Cannot be changed",
+      "Only numbers change",
+      "Deletes automatically"
+    ],
+    "answer": ["Can be changed after creation"]
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "What are dictionary keys?",
+    "options": [
+      "Unique identifiers for values",
+      "Duplicate values",
+      "Only numbers",
+      "Only strings"
+    ],
+    "answer": ["Unique identifiers for values"]
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "Can dictionary keys be duplicated?",
+    "options": ["No", "Yes", "Sometimes", "Only integers"],
+    "answer": ["No"]
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "question": "Can dictionary values be duplicated?",
+    "options": ["Yes", "No", "Only strings", "Only integers"],
+    "answer": ["Yes"]
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "question": "How do you access a value in a dictionary?",
+    "options": ["dict[key]", "dict(key)", "dict{key}", "dict.value()"],
+    "answer": ["dict[key]"]
+  },
+  {
+    "id": 9,
+    "type": "single",
+    "question": "Which is a real-world example of a dictionary?",
+    "options": [
+      "Student record (name → marks)",
+      "List of numbers",
+      "Tuple of values",
+      "Single value"
+    ],
+    "answer": ["Student record (name → marks)"]
+  },
+  {
+    "id": 10,
+    "type": "single",
+    "question": "Which method is used to get a value safely?",
+    "options": ["get()", "fetch()", "find()", "access()"],
+    "answer": ["get()"]
+  },
+  {
+    "id": 11,
+    "type": "single",
+    "question": "Which method adds or updates a key-value pair?",
+    "options": ["dict[key] = value", "append()", "insert()", "push()"],
+    "answer": ["dict[key] = value"]
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "question": "Which method removes a key from dictionary?",
+    "options": ["pop()", "remove()", "delete()", "clearone()"],
+    "answer": ["pop()"]
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "question": "Which function returns number of items in dictionary?",
+    "options": ["len()", "size()", "count()", "length()"],
+    "answer": ["len()"]
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "question": "What does dict.keys() return?",
+    "options": ["All keys", "All values", "Both keys and values", "Length"],
+    "answer": ["All keys"]
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "question": "What does dict.values() return?",
+    "options": ["All values", "All keys", "Both", "None"],
+    "answer": ["All values"]
+  },
+
+  {
+    "id": 16,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1, \"b\": 2}\nprint(data)",
+    "options": ["{\"a\": 1, \"b\": 2}", "[\"a\", \"b\"]", "(1, 2)", "ERROR"],
+    "answer": ["{\"a\": 1, \"b\": 2}"]
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 10}\nprint(data[\"a\"])",
+    "options": ["10", "a", "ERROR", "None"],
+    "answer": ["10"]
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"x\": 1}\ndata[\"x\"] = 5\nprint(data)",
+    "options": ["{\"x\": 5}", "{\"x\": 1}", "{\"5\": x}", "ERROR"],
+    "answer": ["{\"x\": 5}"]
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1, \"b\": 2}\nprint(len(data))",
+    "options": ["2", "1", "0", "ERROR"],
+    "answer": ["2"]
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\nprint(data.get(\"a\"))",
+    "options": ["1", "a", "None", "ERROR"],
+    "answer": ["1"]
+  },
+  {
+    "id": 21,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\nprint(data.get(\"b\"))",
+    "options": ["None", "ERROR", "b", "0"],
+    "answer": ["None"]
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1, \"b\": 2}\ndata.pop(\"a\")\nprint(data)",
+    "options": ["{\"b\": 2}", "{\"a\": 1}", "{}", "ERROR"],
+    "answer": ["{\"b\": 2}"]
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"x\": 1, \"y\": 2}\nprint(data.keys())",
+    "options": ["dict_keys(['x', 'y'])", "[1, 2]", "('x', 'y')", "ERROR"],
+    "answer": ["dict_keys(['x', 'y'])"]
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"x\": 1, \"y\": 2}\nprint(data.values())",
+    "options": ["dict_values([1, 2])", "[1, 2]", "(1, 2)", "ERROR"],
+    "answer": ["dict_values([1, 2])"]
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\ndata[\"b\"] = 2\nprint(data)",
+    "options": ["{\"a\": 1, \"b\": 2}", "{\"a\": 1}", "{\"b\": 2}", "ERROR"],
+    "answer": ["{\"a\": 1, \"b\": 2}"]
+  },
+  {
+    "id": 26,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\nprint(\"a\" in data)",
+    "options": ["True", "False", "ERROR", "None"],
+    "answer": ["True"]
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\nprint(\"b\" in data)",
+    "options": ["False", "True", "ERROR", "None"],
+    "answer": ["False"]
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1}\ndata[\"a\"] = 10\nprint(data[\"a\"])",
+    "options": ["10", "1", "ERROR", "None"],
+    "answer": ["10"]
+  },
+  {
+    "id": 29,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {}\ndata[\"x\"] = 5\nprint(data)",
+    "options": ["{\"x\": 5}", "{}", "[5]", "ERROR"],
+    "answer": ["{\"x\": 5}"]
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "question": "What is the output?\n\ndata = {\"a\": 1, \"a\": 2}\nprint(data)",
+    "options": ["{\"a\": 2}", "{\"a\": 1}", "ERROR", "{1,2}"],
+    "answer": ["{\"a\": 2}"]
+  }
+]
