@@ -2,271 +2,423 @@
   {
     "id": 1,
     "type": "single",
-    "question": "Which category does the '&' symbol belong to in Python?",
+    "question": "What is a list in Python?",
     "options": [
-      "Bitwise operator",
-      "Membership operator",
-      "Identity operator",
-      "Logical operator"
+      "A collection of items stored in a single variable",
+      "A way to print output",
+      "A mathematical operator",
+      "A string method"
     ],
-    "answer": ["Bitwise operator"]
+    "answer": [
+      "A collection of items stored in a single variable"
+    ]
   },
   {
     "id": 2,
     "type": "single",
-    "question": "What does the '|' bitwise operator do in Python?",
+    "question": "Which syntax is used to create a list in Python?",
     "options": [
-      "Performs bitwise OR",
-      "Checks identity",
-      "Checks membership",
-      "Performs logical AND"
+      "[1, 2, 3]",
+      "{1, 2, 3}",
+      "(1, 2, 3)",
+      "<1, 2, 3>"
     ],
-    "answer": ["Performs bitwise OR"]
+    "answer": [
+      "[1, 2, 3]"
+    ]
   },
   {
     "id": 3,
     "type": "single",
-    "question": "Which bitwise operator is used to invert all bits?",
-    "options": ["~", "^", "&", ">>"],
-    "answer": ["~"]
+    "question": "Why is a Python list called ordered?",
+    "options": [
+      "Because items keep their insertion position",
+      "Because it sorts values automatically",
+      "Because it only stores numbers",
+      "Because it removes duplicates"
+    ],
+    "answer": [
+      "Because items keep their insertion position"
+    ]
   },
   {
     "id": 4,
     "type": "single",
-    "question": "What does the 'in' operator do in Python?",
+    "question": "Are Python lists mutable?",
     "options": [
-      "Checks whether a value exists in a sequence",
-      "Checks whether two variables point to the same object",
-      "Performs bitwise comparison",
-      "Assigns a value to a variable"
+      "Yes",
+      "No",
+      "Only for numbers",
+      "Only for strings"
     ],
-    "answer": ["Checks whether a value exists in a sequence"]
+    "answer": [
+      "Yes"
+    ]
   },
   {
     "id": 5,
     "type": "single",
-    "question": "Which operator checks that a value is not present in a sequence?",
-    "options": ["not in", "is not", "~", "!="],
-    "answer": ["not in"]
+    "question": "What does mutable mean in Python?",
+    "options": [
+      "The object can be changed after creation",
+      "The object cannot be changed after creation",
+      "The object can only store one value",
+      "The object is always sorted"
+    ],
+    "answer": [
+      "The object can be changed after creation"
+    ]
   },
   {
     "id": 6,
-    "type": "multiple",
-    "question": "Which of the following are membership operators in Python?",
-    "options": ["in", "not in", "is", "is not"],
-    "answer": ["in", "not in"]
+    "type": "single",
+    "question": "Where are lists commonly used in real programs?",
+    "options": [
+      "To store multiple related values together",
+      "To define operators",
+      "To create comments",
+      "To replace variable names"
+    ],
+    "answer": [
+      "To store multiple related values together"
+    ]
   },
   {
     "id": 7,
     "type": "single",
-    "question": "What does the 'is' operator check in Python?",
+    "question": "Which of the following is a real-time example of a list?",
     "options": [
-      "Whether two references point to the same object",
-      "Whether two values are equal",
-      "Whether a value exists in a list",
-      "Whether both conditions are true"
+      "A shopping cart with multiple products",
+      "A single age value",
+      "One username only",
+      "One boolean value"
     ],
-    "answer": ["Whether two references point to the same object"]
+    "answer": [
+      "A shopping cart with multiple products"
+    ]
   },
   {
     "id": 8,
     "type": "single",
-    "question": "Which operator is the opposite of 'is'?",
-    "options": ["is not", "!=", "not in", "~"],
-    "answer": ["is not"]
+    "question": "Can a Python list contain duplicate values?",
+    "options": [
+      "Yes",
+      "No",
+      "Only sometimes",
+      "Only for strings"
+    ],
+    "answer": [
+      "Yes"
+    ]
   },
   {
     "id": 9,
-    "type": "single",
-    "question": "Which category do 'is' and 'is not' belong to in Python?",
+    "type": "multiple",
+    "question": "Which of the following can be stored inside a Python list?",
     "options": [
-      "Identity operators",
-      "Arithmetic operators",
-      "Membership operators",
-      "Comparison operators"
+      "Numbers",
+      "Strings",
+      "Booleans",
+      "Functions only"
     ],
-    "answer": ["Identity operators"]
+    "answer": [
+      "Numbers",
+      "Strings",
+      "Booleans"
+    ]
   },
   {
     "id": 10,
     "type": "single",
-    "question": "What is the main use of the string method upper()?",
+    "question": "What is an index in a list?",
     "options": [
-      "Converts all characters to uppercase",
-      "Converts all characters to lowercase",
-      "Removes spaces from both ends",
-      "Splits a string into parts"
+      "The position number of an item",
+      "The value stored in the list",
+      "The size of the list",
+      "A method used to delete items"
     ],
-    "answer": ["Converts all characters to uppercase"]
+    "answer": [
+      "The position number of an item"
+    ]
   },
   {
     "id": 11,
     "type": "single",
-    "question": "What is the main use of the string method lower()?",
+    "question": "What is the index of the first element in a Python list?",
     "options": [
-      "Converts all characters to lowercase",
-      "Converts all characters to uppercase",
-      "Finds the position of text",
-      "Replaces part of a string"
+      "0",
+      "1",
+      "-1",
+      "Starts from the value itself"
     ],
-    "answer": ["Converts all characters to lowercase"]
+    "answer": [
+      "0"
+    ]
   },
   {
     "id": 12,
     "type": "single",
-    "question": "What is the main use of the string method strip()?",
+    "question": "How can you retrieve the first element from a list named colors?",
     "options": [
-      "Removes spaces from the beginning and end",
-      "Breaks a string into a list",
-      "Counts characters",
-      "Joins multiple strings"
+      "colors[0]",
+      "colors(0)",
+      "colors{0}",
+      "colors.first()"
     ],
-    "answer": ["Removes spaces from the beginning and end"]
+    "answer": [
+      "colors[0]"
+    ]
   },
   {
     "id": 13,
     "type": "single",
-    "question": "What is the main use of the string method replace()?",
+    "question": "Which method is commonly used to add a new element to the end of a list?",
     "options": [
-      "Replaces one part of a string with another",
-      "Converts a string to uppercase",
-      "Removes spaces from both ends",
-      "Finds the length of a string"
+      "append()",
+      "add()",
+      "push()",
+      "insertend()"
     ],
-    "answer": ["Replaces one part of a string with another"]
+    "answer": [
+      "append()"
+    ]
   },
   {
     "id": 14,
     "type": "single",
-    "question": "What is the main use of the string method split()?",
+    "question": "Which method removes a specific value from a list?",
     "options": [
-      "Splits a string into a list",
-      "Reverses a string",
-      "Converts to lowercase",
-      "Checks object identity"
+      "remove()",
+      "delete()",
+      "clearone()",
+      "drop()"
     ],
-    "answer": ["Splits a string into a list"]
+    "answer": [
+      "remove()"
+    ]
   },
   {
     "id": 15,
     "type": "single",
-    "question": "What is the main use of the string method find()?",
+    "question": "How do you find the total number of items in a list named fruits?",
     "options": [
-      "Returns the position of the first occurrence of a substring",
-      "Deletes part of a string",
-      "Converts text to uppercase",
-      "Removes all spaces"
+      "len(fruits)",
+      "fruits.len()",
+      "count(fruits)",
+      "size(fruits)"
     ],
-    "answer": ["Returns the position of the first occurrence of a substring"]
+    "answer": [
+      "len(fruits)"
+    ]
   },
   {
     "id": 16,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"python\"\nprint(text.upper())",
-    "options": ["PYTHON", "python", "Python", "ERROR"],
-    "answer": ["PYTHON"]
+    "question": "What is the output of the following code?\n\nitems = [10, 20, 30]\nprint(items)",
+    "options": [
+      "[10, 20, 30]",
+      "10, 20, 30",
+      "(10, 20, 30)",
+      "ERROR"
+    ],
+    "answer": [
+      "[10, 20, 30]"
+    ]
   },
   {
     "id": 17,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"HeLLo\"\nprint(text.lower())",
-    "options": ["hello", "HELLO", "HeLLo", "Hello"],
-    "answer": ["hello"]
+    "question": "What is the output of the following code?\n\ncolors = [\"red\", \"blue\", \"green\"]\nprint(colors[0])",
+    "options": [
+      "red",
+      "blue",
+      "green",
+      "ERROR"
+    ],
+    "answer": [
+      "red"
+    ]
   },
   {
     "id": 18,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"  code  \"\nprint(text.strip())",
-    "options": ["code", "  code  ", "code  ", "  code"],
-    "answer": ["code"]
+    "question": "What is the output of the following code?\n\ncolors = [\"red\", \"blue\", \"green\"]\nprint(colors[2])",
+    "options": [
+      "green",
+      "blue",
+      "red",
+      "ERROR"
+    ],
+    "answer": [
+      "green"
+    ]
   },
   {
     "id": 19,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"I like Java\"\nprint(text.replace(\"Java\", \"Python\"))",
-    "options": ["I like Python", "I like Java", "Python", "ERROR"],
-    "answer": ["I like Python"]
+    "question": "What is the output of the following code?\n\nnumbers = [1, 2, 3]\nnumbers.append(4)\nprint(numbers)",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[4, 1, 2, 3]",
+      "[1, 2, 3]",
+      "ERROR"
+    ],
+    "answer": [
+      "[1, 2, 3, 4]"
+    ]
   },
   {
     "id": 20,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"red,blue,green\"\nprint(text.split(\",\"))",
+    "question": "What is the output of the following code?\n\nfruits = [\"apple\", \"banana\", \"mango\"]\nfruits.remove(\"banana\")\nprint(fruits)",
     "options": [
-      "[\"red\", \"blue\", \"green\"]",
-      "\"red,blue,green\"",
-      "\"red\" \"blue\" \"green\"",
+      "[\"apple\", \"mango\"]",
+      "[\"banana\", \"mango\"]",
+      "[\"apple\", \"banana\"]",
       "ERROR"
     ],
-    "answer": ["[\"red\", \"blue\", \"green\"]"]
+    "answer": [
+      "[\"apple\", \"mango\"]"
+    ]
   },
   {
     "id": 21,
     "type": "single",
-    "question": "What is the output of the following code?\n\ntext = \"banana\"\nprint(text.find(\"na\"))",
-    "options": ["2", "3", "4", "-1"],
-    "answer": ["2"]
+    "question": "What is the output of the following code?\n\nvalues = [5, 10, 15]\nprint(len(values))",
+    "options": [
+      "3",
+      "2",
+      "15",
+      "ERROR"
+    ],
+    "answer": [
+      "3"
+    ]
   },
   {
     "id": 22,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and True)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "question": "What is the output of the following code?\n\nitems = [\"pen\", \"pencil\", \"eraser\"]\nprint(items[1])",
+    "options": [
+      "pencil",
+      "pen",
+      "eraser",
+      "ERROR"
+    ],
+    "answer": [
+      "pencil"
+    ]
   },
   {
     "id": 23,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the output of the following code?\n\nnums = [1, 1, 2, 3]\nprint(nums)",
+    "options": [
+      "[1, 1, 2, 3]",
+      "[1, 2, 3]",
+      "(1, 1, 2, 3)",
+      "ERROR"
+    ],
+    "answer": [
+      "[1, 1, 2, 3]"
+    ]
   },
   {
     "id": 24,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(False or True)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "question": "What is the output of the following code?\n\ndata = [100, 200, 300]\ndata[1] = 500\nprint(data)",
+    "options": [
+      "[100, 500, 300]",
+      "[100, 200, 300]",
+      "[500, 200, 300]",
+      "ERROR"
+    ],
+    "answer": [
+      "[100, 500, 300]"
+    ]
   },
   {
     "id": 25,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(False or False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the output of the following code?\n\nletters = [\"a\", \"b\", \"c\"]\nprint(letters[-1])",
+    "options": [
+      "c",
+      "a",
+      "b",
+      "ERROR"
+    ],
+    "answer": [
+      "c"
+    ]
   },
   {
     "id": 26,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not True)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the output of the following code?\n\nscores = [50, 60]\nscores.append(70)\nprint(scores[2])",
+    "options": [
+      "70",
+      "60",
+      "50",
+      "ERROR"
+    ],
+    "answer": [
+      "70"
+    ]
   },
   {
     "id": 27,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not False)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "question": "What is the output of the following code?\n\nnames = [\"Ana\", \"Ben\", \"Cara\"]\nprint(names[0], names[2])",
+    "options": [
+      "Ana Cara",
+      "Ben Cara",
+      "Ana Ben",
+      "ERROR"
+    ],
+    "answer": [
+      "Ana Cara"
+    ]
   },
   {
     "id": 28,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(True and not False)",
-    "options": ["True", "False", "None", "ERROR"],
-    "answer": ["True"]
+    "question": "What is the output of the following code?\n\nitems = [10, 20, 30, 40]\nprint(items[3])",
+    "options": [
+      "40",
+      "30",
+      "20",
+      "ERROR"
+    ],
+    "answer": [
+      "40"
+    ]
   },
   {
     "id": 29,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint(not True or False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the output of the following code?\n\ncities = [\"Chennai\", \"Mumbai\"]\ncities.append(\"Delhi\")\nprint(len(cities))",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "ERROR"
+    ],
+    "answer": [
+      "3"
+    ]
   },
   {
     "id": 30,
     "type": "single",
-    "question": "What is the output of the following code?\n\nprint((True or False) and False)",
-    "options": ["False", "True", "None", "ERROR"],
-    "answer": ["False"]
+    "question": "What is the output of the following code?\n\nitems = [\"x\", \"y\", \"z\"]\nitems.remove(\"y\")\nprint(items[1])",
+    "options": [
+      "z",
+      "y",
+      "x",
+      "ERROR"
+    ],
+    "answer": [
+      "z"
+    ]
   }
 ]
